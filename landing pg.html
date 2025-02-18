@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Drama Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f3f3;
+        }
+        header {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #ffe3e3;
+        }
+        .hero .btn {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .drama img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .blog, .ost, .newsletter {
+            text-align: center;
+            padding: 40px;
+        }
+        footer {
+            background-color: #ff4d6d;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>K-Drama Universe</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#featured">Featured</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#ost">OSTs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Welcome to the World of K-Dramas</h2>
+        <p>Get the latest updates, reviews, and OST recommendations!</p>
+        <a href="#blog" class="btn">Explore Now</a>
+    </section>
+    
+    <section id="featured" class="featured">
+        <h2>Popular Dramas</h2>
+        <div class="grid">
+            <div class="drama">
+                <img src="c:\Users\Loga\Downloads\tale-of-the-nine-tailed.jpeg" alt="Drama 1">
+                <h3>Tale of nine Tailed</h3>
+            </div>
+            <div class="drama">
+                <img src="c:\Users\Loga\Downloads\deviljudge.jpg" alt="Drama 2">
+                <h3>   Devil Judge</h3>
+            </div>
+            <div class="drama">
+                <img src="c:\Users\Loga\Downloads\descendants-of-the-sun.jpg" alt="Drama 3">
+                <h3>Desendents Of The Sun</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="blog" class="blog">
+        <h2>Latest Blog Posts</h2>
+        <article>
+            <h3>Review: Drama Name</h3>
+            <p>A brief summary of the latest K-drama review...</p>
+            <a href="https://luokasni.blogspot.com/">Read More</a>
+        </article>
+    </section>
+    
+    <section id="ost" class="ost">
+        <h2>OST Playlist</h2>
+        <iframe width="560" height="315" src="c:\Users\Loga\Downloads\maxresdefault.jpg" frameborder="0" allowfullscreen></iframe>
+    </section>
+    
+    <section id="contact" class="newsletter">
+        <h2>Subscribe for Updates</h2>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 K-Drama Universe | Follow us on social media</p>
+    </footer>
+</body>
+</html>
